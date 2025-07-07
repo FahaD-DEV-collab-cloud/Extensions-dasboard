@@ -3,96 +3,60 @@ let data_array = [
 
     {
         id: 1,
-        img: "assets/AI online grammar checker.png",
+        img: "assets/ai online grammar checker.png",
         heading: "AI online grammar checker",
         complete: false
 
     },
     {
         id: 2,
-        img: "assets/ChatGPT for Gmai.png",
+        img: "assets/chatgpt for gmai.png",
         heading: "ChatGPT for Gmai",
         complete: false
 
     },
     {
         id: 3,
-        img: "assets/DeepL translate and write with AI.png",
+        img: "assets/deepl translate and write with ai.png",
         heading: "DeepL translate and write with AI",
         complete: false
 
     },
     {
         id: 4,
-        img: "assets/Email Signature Generator.png",
+        img: "assets/email signature generator.png",
         heading: "Email Signature Generator",
         complete: false
 
     },
     {
         id: 5,
-        img: "assets/Email Tracker by Mailtrack®.png",
+        img: "assets/email tracker by mailtrack®.png",
         heading: "Email Tracker by Mailtrack®",
         complete: false
     },
     {
         id: 6,
-        img: "assets/Fathom AI Note Taker.png",
+        img: "assets/fathom ai note taker.png",
         heading: "Fathom AI Note Taker",
         complete: false
     },
     {
         id: 7,
-        img: "assets/Insert and Send HTML.png",
+        img: "assets/Insert and Send html.png",
         heading: "Insert and Send HTML",
         complete: false
     },
     {
         id: 8,
-        img: "assets/InTouchApp Phone Contacts.png",
+        img: "assets/Intouchapp Phone contacts.png",
         heading: "InTouchApp Phone Contacts",
         complete: false
     },
     {
         id: 9,
-        img: "assets/JSON Formatter.png",
+        img: "assets/json formatter.png",
         heading: "JSON Formatter",
-        complete: false
-    },
-    {
-        id: 10,
-        img: "assets/Magical AI Agent for Autofill.png",
-        heading: "Magical AI Agent for Autofill",
-        complete: false
-    },
-    {
-        id: 11,
-        img: "assets/Meeting Scheduler for Gmail™.png",
-        heading: "Meeting Scheduler Gmail™",
-        complete: false
-    },
-    {
-        id: 12,
-        img: "assets/mysms - SMSText.png",
-        heading: "mysms - SMSText",
-        complete: false
-    },
-    {
-        id: 13,
-        img: "assets/Notifier for Gmail™.png",
-        heading: "Notifier for Gmail™",
-        complete: false
-    },
-    {
-        id: 14,
-        img: "assets/ParagraphAI.png",
-        heading: "ParagraphAIr",
-        complete: false
-    },
-    {
-        id: 15,
-        img: "assets/Pixel measurement.png",
-        heading: "Pixel measurement",
         complete: false
     },
 
@@ -258,34 +222,26 @@ const pust_ex_store_fun = () => {
                 storedata.push(move_data);
                 localStorage.setItem('store_data', JSON.stringify(storedata));
 
-                copyarr = [...data_array];
-                showdata();
+                copyarr = [...data_array]
+                showdata()
             }
+
+
         })
     })
 }
 document.addEventListener('DOMContentLoaded', () => {
+
     let mainstore = JSON.parse(localStorage.getItem('main_cards')) || [];
+    if (!mainstore || mainstore.length === 0) {
+     
+        localStorage.setItem('main_cards', JSON.stringify(data_array));
+        mainstore = [...data_array];
+    }
 
-
-    // if (!mainstore || mainstore.length === 0) {
-    //     // agar koi data nahi mila
-    //     localStorage.setItem('main_cards', JSON.stringify(data_array));
-    //     mainstore = [...data_array];
-    // }
-
-
-
-
-    data_array = [...mainstore];
+      data_array = [...mainstore];
     copyarr = [...mainstore]
-    showdata();
+    showdata()
 
 })
-
-
-
-
-
-
 
