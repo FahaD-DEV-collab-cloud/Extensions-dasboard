@@ -10,55 +10,75 @@ let data_array = [
     },
     {
         id: 2,
-        img: "assets/chatgpt for gmai.png",
+        img: "assets/chatgptgmail2.png",
         heading: "ChatGPT for Gmai",
         complete: false
 
     },
     {
         id: 3,
-        img: "assets/deepl translate and write with ai.png",
+        img: "assets/deepltranslate3.png",
         heading: "DeepL translate and write with AI",
         complete: false
 
     },
     {
         id: 4,
-        img: "assets/email signature generator.png",
+        img: "assets/emailsignature5.png",
         heading: "Email Signature Generator",
         complete: false
 
     },
     {
         id: 5,
-        img: "assets/email tracker by mailtrack®.png",
+        img: "assets/emailtracker4.png",
         heading: "Email Tracker by Mailtrack®",
         complete: false
     },
     {
         id: 6,
-        img: "assets/fathom ai note taker.png",
+        img: "assets/fathom6.png",
         heading: "Fathom AI Note Taker",
         complete: false
     },
     {
         id: 7,
-        img: "assets/Insert and Send html.png",
+        img: "assets/inserthtml7.png",
         heading: "Insert and Send HTML",
         complete: false
     },
     {
         id: 8,
-        img: "assets/Intouchapp Phone contacts.png",
+        img: "assets/intouchapp.png",
         heading: "InTouchApp Phone Contacts",
         complete: false
     },
     {
         id: 9,
-        img: "assets/json formatter.png",
+        img: "assets/jsonformatoer.png",
         heading: "JSON Formatter",
         complete: false
     },
+
+     {
+        id: 10,
+        img: "assets/magicai.png",
+        heading: "Magic AI",
+        complete: false
+    },
+     {
+        id: 11,
+        img: "assets/mettingsechudle.png",
+        heading: "Metting Sechudle manager",
+        complete: false
+    },
+     {
+        id: 10,
+        img: "assets/mysms.png",
+        heading: "My-SMS HTML",
+        complete: false
+    },
+
 
 
 ]
