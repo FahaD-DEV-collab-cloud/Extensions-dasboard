@@ -1,13 +1,16 @@
 
 let data_array = [
 
+
+    
     {
         id: 1,
-        img: "assets/ai online grammar checker.png",
-        heading: "AI online grammar checker",
+        img: "assets/aicheck1.png",
+        heading: "AI Checker",
         complete: false
 
     },
+
     {
         id: 2,
         img: "assets/chatgptgmail2.png",
